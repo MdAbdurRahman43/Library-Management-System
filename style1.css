@@ -1,0 +1,128 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase;
+    }
+    
+    body .bacground {
+        background-image: url("./assets/bacground.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    body .container {
+        background-color: rgba(16, 8, 53, 0.521);
+        color: white;
+    }
+    
+    body .container .header {
+        background-color: rgba(5, 2, 32, 0.411);
+    }
+    
+    body .container .header h2 {
+        text-align: center;
+        margin: 0;
+        padding: 30px 30px 15px 30px;
+        letter-spacing: 10px;
+        word-spacing: 12px;
+    }
+    
+    body .container .header .image {
+        display: flex;
+        justify-content: center;
+    }
+    
+    body .container .header .image img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 50px;
+        border-radius: 30%;
+    }
+    
+    body .container .main {
+        margin: 40px auto;
+        width: 80%;
+        background-color: rgba(23, 9, 63, 0.479);
+        padding: 40px 400px;
+        border-radius: 40px;
+    }
+    
+    body .container .main h4 {
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 6px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    body .container .main form p {
+        letter-spacing: 4px;
+        font-size: 20px;
+    }
+    
+    body .container .main input {
+        padding: 10px;
+        width: 100%;
+        border-radius: 10px;
+        outline: none;
+        font-size: 18px;
+    }
+    
+    body .container .main form .forgot {
+        font-size: 14px;
+        text-transform: capitalize;
+    }
+    
+    body .container .main form .forgot span a {
+        color: seagreen;
+        text-decoration: none;
+    }
+    
+    body .container .main .submit {
+        display: flex;
+        justify-content: center;
+    }
+    
+    body .container .main input[type="submit"] {
+        width: 30%;
+        margin-top: 30px;
+        letter-spacing: 4px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    
+    body .container .footer {
+        background-color: rgba(5, 2, 32, 0.411);
+        padding: 15px;
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+    }
+    
+    body .container .footer span {
+        margin: 0;
+        padding: 0;
+        letter-spacing: 2px;
+        word-spacing: 2px;
+        font-size: 10px;
+    }
+    
+    @media (max-width: 800px) {
+        body .container .main {
+            margin: 40px auto;
+            width: 80%;
+            background-color: rgba(23, 9, 63, 0.479);
+            padding: 40px 40px;
+        }
+        body .container .main input[type="submit"] {
+            width: 30%;
+            margin-top: 30px;
+            letter-spacing: 0px;
+            font-size: 10px;
+            font-weight: bold;
+        }
+    }
